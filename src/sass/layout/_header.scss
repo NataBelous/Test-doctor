@@ -1,3 +1,21 @@
 .info {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-page {
+  display: flex;
+  margin-left: 60px;
+}
+.info-list-page {
+  margin-left: 60px;
+}
+
+.info-contact-list {
+  margin-left: 60px;
+}
+
+.info-link {
+  margin-left: 60px;
 }
