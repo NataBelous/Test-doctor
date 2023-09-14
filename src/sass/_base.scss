@@ -5,40 +5,41 @@
   padding-right: 20px;
   background-color: aquamarine;
 
-//   @include mobile {
-//     width: 320px;
-//   }
+  @include mobile {
+    width: 320px;
+  }
 
-//   @include tablet {
-//     width: 768px;
-//     padding-left: 32px;
-//     padding-right: 32px;
-//   }
+  @include tablet {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-//   @include desktop {
-//     width: 1200px;
-//     padding-left: 16px;
-//     padding-right: 16px;
-//   }
-// }
+  @include desktop {
+    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 
-// .section {
-//   padding-top: 60px;
-//   padding-bottom: 60px;
-// }
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: burlywood;
+}
 
 // *::before,
 // *::after {
 //   box-sizing: border-box;
 // }
 
-// body {
-//   font-family: 'DM Sans';
-//   font-style: normal;
-//   font-size: 14px;
-//   letter-spacing: 0.04em;
-//   background-color: $text-white-color;
-// }
+body {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  background-color:chocolate;
+}
 
 // html {
 //   scroll-behavior: smooth;
@@ -55,4 +56,4 @@
 // a:hover,
 // a:focus {
 //   color: $accent-color;
-}
+// }
