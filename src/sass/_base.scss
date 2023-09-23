@@ -5,21 +5,21 @@
   padding-right: 20px;
   background-color: aquamarine;
 
-  @include mobile {
-    width: 320px;
-  }
+  // @include mobile {
+  //   width: 320px;
+  // }
 
-  @include tablet {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+  // @include tablet {
+  //   width: 768px;
+  //   padding-left: 32px;
+  //   padding-right: 32px;
+  // }
 
-  @include desktop {
-    width: 1200px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+  // @include desktop {
+  //   width: 1200px;
+  //   padding-left: 16px;
+  //   padding-right: 16px;
+  // }
 }
 
 .section {
@@ -45,9 +45,9 @@ body {
 //   scroll-behavior: smooth;
 // }
 
-// .list {
-//   list-style: none;
-// }
+.list {
+  list-style: none;
+}
 
 // a {
 //   text-decoration: none;

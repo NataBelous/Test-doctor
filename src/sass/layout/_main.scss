@@ -1,0 +1,11 @@
+.hero {
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 400px;
+  background-color: khaki;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(59, 162, 148, 0.4), 
+  rgba(59, 162, 148, 0.4)),
+  url(../images/hero.jpg);
+}
